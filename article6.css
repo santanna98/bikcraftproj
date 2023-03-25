@@ -129,7 +129,7 @@
 
 .article6-primaria li::after {
   content: "";
-  background-image: url(/img/icones/lista.svg);
+  background-image: url(./img/icones/lista.svg);
   display: block;
   height: 10px;
   width: 15px;
