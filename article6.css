@@ -107,7 +107,7 @@
   font-size: 1.125rem;
   font-weight: 600;
   text-transform: uppercase;
-  justify-self: start;
+  place-self: start;
 }
 
 .article6-prata-b {
@@ -118,7 +118,7 @@
   font-size: 1.125rem;
   font-weight: 600;
   text-transform: uppercase;
-  justify-self: start;
+  place-self: start;
 }
 
 .article6-detalhe {
