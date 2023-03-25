@@ -1,0 +1,227 @@
+.article3-bg {
+  background: #141414;
+  box-shadow: inset 0px -65px 0px #ffffff, inset 0px 65px 0px #ffffff;
+}
+
+.article3-cont {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.foto-tecnologia {
+  object-fit: cover;
+  grid-column: 2;
+  grid-row: 1 / 2;
+  width: 700px;
+  height: 100%;
+}
+
+.article3-itensgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.article3-itens {
+  padding: 145px 0px;
+  padding-right: 20px;
+}
+
+.article3-itens span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #949494;
+}
+
+.article3-itens h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.12;
+  text-transform: lowercase;
+  color: #ffffff;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.article3-itens h1 span {
+  color: #ffbb00;
+  font-size: 4rem;
+}
+
+#articlep {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #aeaeae;
+  margin-bottom: 20px;
+}
+
+.article3-itens a {
+  color: #ffbb00;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 0.015rem;
+}
+
+.article3-itensgrid {
+  margin-top: 88px;
+  gap: 40px;
+}
+
+.article3-itensgrid h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #f7f7f7;
+  position: relative;
+}
+
+.article3-itensgrid p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #aeaeae;
+}
+
+.motor h3::after {
+  content: "";
+  display: block;
+  background-image: url(/img/icones/eletrica.svg);
+  height: 30px;
+  width: 35px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -35px;
+  background-size: 70%;
+}
+
+.rastreador h3::after {
+  content: "";
+  display: block;
+  background-image: url(/img/icones/rastreador.svg);
+  height: 30px;
+  width: 35px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -35px;
+  background-size: 70%;
+}
+
+.motor p {
+  margin-top: 10px;
+}
+
+.rastreador p {
+  margin-top: 10px;
+}
+
+@media (max-width: 1150px) {
+  .article3-itens span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #949494;
+  }
+
+  .article3-itens h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.12;
+    text-transform: lowercase;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  .article3-itens h1 span {
+    color: #ffbb00;
+    font-size: 3.5rem;
+  }
+
+  #articlep {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #aeaeae;
+    margin-bottom: 20px;
+  }
+
+  .article3-itens a {
+    color: #ffbb00;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.015rem;
+  }
+
+  .article3-itensgrid h3 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #f7f7f7;
+    position: relative;
+  }
+
+  .article3-itensgrid p {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #aeaeae;
+  }
+}
+
+@media (max-width: 1000px) {
+  .article3-itens h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.12;
+    text-transform: lowercase;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  .article3-itens h1 span {
+    color: #ffbb00;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 850px) {
+  .foto-tecnologia {
+    display: none;
+  }
+  .article3-cont {
+    grid-template-columns: 1fr;
+  }
+  .article2-cont {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .article3-itens h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.12;
+    text-transform: lowercase;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  .article3-itens h1 span {
+    color: #ffbb00;
+    font-size: 2.5rem;
+  }
+}
